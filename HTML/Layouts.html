@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTPMQL</title>
+</head>
+<body>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: 'Times New Roman', Times, serif;
+        }
+        
+        /* Style the header */
+        header {
+          background-color: #bdb9b9fd;
+          padding: 30px;
+          text-align: center;
+          font-size: 40px;
+          color: white;
+        }
+        
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+          float: left;
+          width: 40%;
+          height: 400px; /* only for demonstration, should be removed */
+          background: #e29393;
+          padding: 20px;
+        }
+        
+        /* Style the list inside the menu */
+        nav ul {
+          list-style-type: none;
+          padding: 0;
+        }
+        
+        article {
+          float: left;
+          padding: 20px;
+          width: 70%;
+          background-color: #fbc9c9;
+          height: 300px; /* only for demonstration, should be removed */
+        }
+        
+        /* Clear floats after the columns */
+        section::after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Style the footer */
+        footer {
+          background-color: #eddddd;
+          padding: 10px;
+          text-align: center;
+          color: white;
+        }
+        
+        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+        @media (max-width: 600px) {
+          nav, article {
+            width: 100%;
+            height: auto;
+          }
+        }
+        </style>
+        <header>
+            <h2>Information</h2>
+          </header>
+        <section>
+            <nav>
+              <ul>
+                <li><a href="#">Name</a></li>
+                <li><a href="#">Class</a></li>
+                <li><a href="#">Student code</a></li>
+              </ul>
+            </nav>
+            
+            <article>
+              <h1>Le Thanh Tam</h1>
+              <p>DCCTCT66_04D</p>
+              <p>2121051428</p>
+            </article>
+          </section>
+    
+</body>
+</html>
