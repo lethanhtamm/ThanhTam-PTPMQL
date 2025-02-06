@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>PTPMQL </title>
+</head>
+<body>
+    <div class="w3-container">
+        <h2>Nghệ An </h2>
+      </div>
+      
+      <div class="w3-bar w3-black">
+        <button class="w3-bar-item w3-button" onclick="openCity('Quảng trường')">Quảng trường Hồ Chí Minh </button>
+        <button class="w3-bar-item w3-button" onclick="openCity('Chợ Vinh')">Chợ – Vinh </button>
+        <button class="w3-bar-item w3-button" onclick="openCity('Phố đi bộ TP Vinh')">Phố đi bộ </button>
+      </div>
+      
+      <div id="Chợ Vinh" class="w3-container city">
+        <h2>Chợ Vinh </h2>
+        <p>Chợ Vinh - trước đây có tên gọi là chợ Vĩnh. Tên gọi chợ Vĩnh đã có trong sách "Thiên nam tứ chi lộ đồ", một sách địa lý nước ta được biên soạn vào thời nhà Lê. Với Chợ Vĩnh, trước khi trở thành lị sở Nghệ An, Vinh đã là nơi sầm uất.</p>
+      </div>
+      
+      <div id="QUảng trường" class="w3-container city" >
+        <h2>Quảng trường – Hồ Chí Minh </h2>
+        <p>Quảng trường –  Hồ Chí Minh là công trình kiến trúc đặc sắc giữa lòng thành phố Vinh Nghệ An, thể hiện tấm lòng kính yêu của người dân nơi đây và nhân dân cả nước đối với vị lãnh tụ vĩ đại của dân tộc. </p> 
+      </div>
+      
+      <div id="Phố đi bộ" class="w3-container city">
+        <h2>Phố đi bộ </h2>
+        <p>PHỐ ĐI BỘ THÀNH PHỐ VINH Phố đi bộ thành phố Vinh chính thức vận hành ngày 08/4/2022 với mục đích tạo điểm nhấn du lịch cho thành phố, góp phần thu hút du khách và tạo điểm vui chơi, giải trí cho Nhân dân. Phố đi bộ mở từ 19h – 23h30 mỗi tối thứ sáu, thứ bảy hàng tuần. </p>
+      </div>
+      
+      <script>
+      function openCity(cityName) {
+        var i;
+        var x = document.getElementsByClassName("city");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        document.getElementById(cityName).style.display = "block";  
+      }
+      </script>
+</body>
+</html>
