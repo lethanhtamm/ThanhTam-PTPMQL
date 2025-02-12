@@ -1,0 +1,15 @@
+E:\LeThanhTam-PTPMQL\MyConsoleApp\bin\Debug\net9.0\MyConsoleApp.exe
+E:\LeThanhTam-PTPMQL\MyConsoleApp\bin\Debug\net9.0\MyConsoleApp.deps.json
+E:\LeThanhTam-PTPMQL\MyConsoleApp\bin\Debug\net9.0\MyConsoleApp.runtimeconfig.json
+E:\LeThanhTam-PTPMQL\MyConsoleApp\bin\Debug\net9.0\MyConsoleApp.dll
+E:\LeThanhTam-PTPMQL\MyConsoleApp\bin\Debug\net9.0\MyConsoleApp.pdb
+E:\LeThanhTam-PTPMQL\MyConsoleApp\obj\Debug\net9.0\MyConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\LeThanhTam-PTPMQL\MyConsoleApp\obj\Debug\net9.0\MyConsoleApp.AssemblyInfoInputs.cache
+E:\LeThanhTam-PTPMQL\MyConsoleApp\obj\Debug\net9.0\MyConsoleApp.AssemblyInfo.cs
+E:\LeThanhTam-PTPMQL\MyConsoleApp\obj\Debug\net9.0\MyConsoleApp.csproj.CoreCompileInputs.cache
+E:\LeThanhTam-PTPMQL\MyConsoleApp\obj\Debug\net9.0\MyConsoleApp.sourcelink.json
+E:\LeThanhTam-PTPMQL\MyConsoleApp\obj\Debug\net9.0\MyConsoleApp.dll
+E:\LeThanhTam-PTPMQL\MyConsoleApp\obj\Debug\net9.0\refint\MyConsoleApp.dll
+E:\LeThanhTam-PTPMQL\MyConsoleApp\obj\Debug\net9.0\MyConsoleApp.pdb
+E:\LeThanhTam-PTPMQL\MyConsoleApp\obj\Debug\net9.0\MyConsoleApp.genruntimeconfig.cache
+E:\LeThanhTam-PTPMQL\MyConsoleApp\obj\Debug\net9.0\ref\MyConsoleApp.dll
