@@ -1,0 +1,32 @@
+@model MyMvcApp.Models.Person
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3> you sure want to Delete this?</h3>
+<div>
+    <h4>Person</h4>
+    <hr />
+    <dl class="row">
+        <dl class="col-sm-2">
+        @Html.DisplayNameFor(Model => Model.FullName)
+        </dl>
+        <dd class="col-sm-10">
+        @Html.DisplayNameFor(Model => Model.FullName)
+        </dd>
+        <dt class="col-sm-2">
+         @Html.DisplayNameFor(Model => Model.Address)
+        </dt>
+        <dd class="col-sm-10">
+        @Html.DisplayNameFor(Model => Model.Address)
+     </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="PersonID" />
+        <input type="submit" value="Delete" class="btn btn-primary" />
+    </form>
+</div>
