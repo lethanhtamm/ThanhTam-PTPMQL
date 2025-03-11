@@ -1,19 +1,25 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Encodings.Web;
-namespace MvcMovie.Controllers
+using MyMvcApp.Models;
+namespace MyMvcApp.Controllers
 {
     public class PersonController : Controller
     { 
-        // GET: HelloWorld/
+        // GET: /Person/
         public IActionResult Index()
         {
             return View();
         } 
-        // GET: /HelloWorld/Welcome/ 
-
-        public string Welcome()
+        public string Halo()
         {
-            return "This is a Welcome to Thanh Tam.";
+            return "LeThanhTam";
+        }
+
+        [HttpPost]
+        public IActionResult Index(Person ps){
+            string add ="Thành Viên" + ps.id + " " + ps.FullName +" " + ps.Gender +" "+ ps.email;
+            ViewBag.inforPerson = add;
+            return View();
         }
     }
 }
