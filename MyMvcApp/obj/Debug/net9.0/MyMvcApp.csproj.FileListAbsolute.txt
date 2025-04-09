@@ -353,3 +353,12 @@ E:\LeThanhTam-PTPMQL\MyMvcApp\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3
 E:\LeThanhTam-PTPMQL\MyMvcApp\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 E:\LeThanhTam-PTPMQL\MyMvcApp\obj\Debug\net9.0\MyMvcApp.csproj.AssemblyReference.cache
 E:\LeThanhTam-PTPMQL\MyMvcApp\obj\Debug\net9.0\MyMvcApp.csproj.Up2Date
+E:\LeThanhTam-PTPMQL\MyMvcApp\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\LeThanhTam-PTPMQL\MyMvcApp\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+E:\LeThanhTam-PTPMQL\MyMvcApp\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\LeThanhTam-PTPMQL\MyMvcApp\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+E:\LeThanhTam-PTPMQL\MyMvcApp\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\LeThanhTam-PTPMQL\MyMvcApp\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+E:\LeThanhTam-PTPMQL\MyMvcApp\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\LeThanhTam-PTPMQL\MyMvcApp\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+E:\LeThanhTam-PTPMQL\MyMvcApp\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
