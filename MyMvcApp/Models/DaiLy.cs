@@ -11,5 +11,6 @@ namespace MyMvcApp.Models
 
         // Liên kết với HeThongPhanPhoi
         public required HeThongPhanPhoi HeThongPhanPhoi { get; set; }
+        public object PersonID { get; internal set; }
     }
 }
